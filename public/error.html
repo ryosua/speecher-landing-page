@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title>Page Not Found</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="icon" 
+      type="image/icon" 
+      href="img/favicon.ico">
+  <style>
+    html {
+      height: 100%;
+    }
+    
+    img.bg {
+      /* Set rules to fill background */
+      min-height: 100%;
+      min-width: 1024px;
+        
+      /* Set up proportionate scaling */
+      width: 100%;
+      height: auto;
+        
+      /* Set up positioning */
+      position: fixed;
+      top: 0;
+      left: 0;
+    }
+
+    @media screen and (max-width: 1024px) { /* Specific to this particular image */
+      img.bg {
+        left: 50%;
+        margin-left: -512px;   /* 50% */
+      }
+    }
+
+    body {
+      width: 100%;
+      height: 100%;
+      font-family: "Helvetica Neue", Helvetica, Open Sans, Arial, sans-serif;
+      background: #fff url('//assets.divshot.io/superstatic/background.jpg') top center no-repeat;
+      background-size: 100% auto;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    @media (max-width: 400px) {
+      body {
+        background-size: 520%;
+      }
+    }
+
+    #message-wrapper {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+
+    #message {
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      transform: translateY(-50%);
+      max-width: 500px;
+      text-align: center;
+      margin: 0 auto;
+      padding: 1.5em;
+    }
+
+    #message h1 {
+      color: #333;
+      font-size: 4em;
+      line-height: 1.2em;
+      font-weight: bold;
+      margin: 0 0 0.1em;
+    }
+
+    #message h2 {
+      color: #333;
+      font-size: .75em;
+      line-height: 1.5em;
+      font-weight: bold;
+      margin: 1em 0 0.2em;
+    }
+    #message p {
+      margin: 0;
+      color: #777;
+      font-size: 1.25em;
+      line-height: 1.5em;
+    }
+    
+    #verticalPadding {
+      margin: 0;
+      color: #777;
+      font-size: 1.25em;
+      line-height: 1.5em;
+      padding-bottom: 75px;
+    }
+
+    #message #footer {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 1.5em;
+      opacity: 0.5;
+    }
+
+    #message #footer a {
+      color: #999;
+    }
+
+    .glyph {
+      margin: 3.2em 0 0 0;
+    }
+  </style>
+</head>
+<body>
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2VDDN"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2VDDN');</script>
+    <!-- End Google Tag Manager -->
+
+    <img src="img/cards_1.jpg" class="bg">
+  <div id="page-wrap"> </div>
+    
+  <div id="message-wrapper">
+    <div id="message">
+      <h1>404: Speech Not Delivered!</h1>
+      <div id="verticalPadding"
+        <p>Quick, you still have time to pick up your cards!</p>
+      </div>
+      <!--
+      <h2>Should there be something here?</h2>
+      <p><a href="mailto:support@divshot.com">Get Help via Email</a> or <a href="http://docs.divshot.com/guides/common-deploy-issues">Common Deploy Issues Documentation</a></p>
+      <p id="footer">This page was served by <a href="https://github.com/divshot/superstatic" target="_blank">superstatic</a>.</p>
+    </div> 
+    -->
+    <a href="http://www.getspeecher.com">
+        <img src="img/speecherIcon.png" alt="speecher icon">
+    </a>
+  </div>
+</body>
+</html>
